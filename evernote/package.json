@@ -1,0 +1,21 @@
+{
+  "name": "evernote",
+  "version": "0.0.1",
+  "main": "main.js",
+  "description": "evernote",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ --platform=linux --arch=all --out ~/build/evernote --version 0.0.1 --overwrite --icon=./status_bar.png"
+  },
+
+
+  "license": "CC0-1.0",
+  "dependencies": {
+    "electron-packager": "^7.0.0",
+    "electron": "^1.3.4",
+    "pinyin": "^2.7.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.7.0"
+  }
+}
