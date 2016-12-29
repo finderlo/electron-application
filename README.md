@@ -1,1 +1,1 @@
-# electron-application
+# electron-applications
